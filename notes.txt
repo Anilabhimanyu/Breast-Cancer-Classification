@@ -1,0 +1,22 @@
+Install UV: alternative to venv
+1. Open Powershell (win)
+--> Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+--> powershell -c "irm https://astral.sh/uv/install.ps1 |iex"
+Then set environment path
+--> To add C:\Users\Lenovo\.local\bin to your PATH, either restart your shell or run:
+    set Path=C:\Users\Lenovo\.local\bin;%Path%   (cmd)
+    $env:Path = "C:\Users\Lenovo\.local\bin;$env:Path"   (powershell)
+
+
+==============================
+Problem Statement: Classify into Malignant and Benign from 30 features
+Input : 30 Features
+Output: 2 Labels (Malignant and Benign)
+No Of Instances: 569
+Class Dist: 212 Malignant , 357 Benign
+==============================
+
+
+==============================
+DataSet: https://archive.ics.uci.edu/dataset/14/breast+cancer
+==============================
